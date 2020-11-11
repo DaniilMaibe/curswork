@@ -18,7 +18,7 @@ public:
 private slots:
     void on_comboBox_activated(const QString &arg1);
 
-    void on_pushButton_clicked();
+    void on_pushButton_area_clicked(); // площадь треугольника
 
 private:
     Ui::MainWindow *ui;
